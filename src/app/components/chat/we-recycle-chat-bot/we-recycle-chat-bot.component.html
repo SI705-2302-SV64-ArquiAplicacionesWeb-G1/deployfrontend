@@ -1,0 +1,30 @@
+<div class="container mt-3">
+    <div class="card">
+      <div class="card-header">
+        <h1>Chatbot de WeRecycle</h1>
+      </div>
+      <div class="card-body">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 respuesta">
+              {{ texto }}
+            </div>
+          </div>
+        </div>
+        <input
+          [(ngModel)]="message"
+          name="message"
+          placeholder="Escribe tu mensaje aqui..."
+          class="form-control"
+        />
+        <div class="button-container">
+        <button class="btn btn-outline-primary mt-2 mr-2" (click)="sendMessage()">
+          Enviar
+        </button>
+        <button class="btn btn-outline-danger mt-2" (click)="limpiar()">
+          Limpiar
+        </button>
+    </div>
+      </div>
+    </div>
+  </div>

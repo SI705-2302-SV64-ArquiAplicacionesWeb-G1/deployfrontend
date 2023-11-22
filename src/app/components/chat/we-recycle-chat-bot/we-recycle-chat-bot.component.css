@@ -1,0 +1,37 @@
+.card-header{
+    border-radius: 100px;
+    width: 70%;
+    margin-left: 190px;
+    background-color: #006400;
+    color: #ebefe6;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.card {
+    margin-top: 20px; /* Espacio arriba para separar del borde superior */
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar elementos horizontalmente */
+    text-align: center; /* Alinear texto al centro */
+  }
+  
+  .respuesta {
+    margin-bottom: 10px; /* Espacio abajo para separar del siguiente elemento */
+  }
+  
+  /* Ajustar tamaño del form-control */
+  .form-control {
+    width: 100%; /* Utilizar todo el ancho disponible */
+    min-height: 38px; /* Altura mínima para evitar un campo demasiado pequeño */
+    resize: vertical; /* Permitir redimensionamiento vertical */
+  }
+  .button-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start; /* Alinear contenido a la derecha */
+    margin-top: 10px; /* Espacio arriba para separar del campo de texto */
+  }
